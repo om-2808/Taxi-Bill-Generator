@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main(){
+    int id,n,a=26;
+    char name[15];
+    float distance;
+    
+    printf("Enter Customer ID :");
+    scanf("%d",&id);
+    
+    printf("Enter Customer Name :");
+    scanf("%s",name);
+    
+    printf("Enter Customer Phone No. :");
+    scanf("%d",&n);
+    
+    printf("Enter Distance Travelled (in Km) :");
+    scanf("%f",&distance);
+    
+    
+    printf("\n===============================");
+    printf("\n           TAXI BILL      ");
+    printf("\n===============================");
+    
+    printf("\nCustomer Id : %d",id);
+    printf("\nCustomer Name : %s",name);
+    printf("\nCustomer Phone Number : %d",n);
+    printf("\nDistance Travelled : %f Km",distance);
+    printf("\n");
+    printf("\nTotal Bill : %f Rs.",distance*a);
+    printf("\n");
+    printf("\n===============================");
+}
